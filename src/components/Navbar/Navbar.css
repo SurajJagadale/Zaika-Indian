@@ -1,0 +1,110 @@
+.app__navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:black;
+    padding: 1rem 2rem;
+}
+.app__navbar-logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.app__navbar-logo img{
+    width: 180px;
+}
+.app__navbar-link{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.app__navbar-link li{
+    cursor: pointer;
+    margin: 0 1rem;
+}
+.app__navbar-link li:hover{
+    color: var(--color-grey);
+}
+.app__navbar-login{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.app__navbar-login a{
+    margin: 0 1rem;
+    text-decoration: none;
+    transition:0.5s ease
+}
+.app__navbar-login a:hover{
+  border-bottom:1px solid var(--color-golden)  ; 
+}
+.app__navbar-login div{
+    width: 1px;
+    height: 30px;
+    background-color: var(--color-grey);
+}
+.app__navbar-smallscreen{
+    display: none;
+}
+.app__navbar-smallscreen_overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--color-black);
+    transition: 1s  ease;
+    flex-direction: column;
+    z-index: 5;
+}
+ .overlay__close{
+    font-size: 27px;
+    cursor: pointer;
+    color: var(--color-golden);
+    position:absolute;
+    top: 20px;
+    right: 20px;
+    flex: center; 
+}
+.app__navbar-smallscreen_link{
+    list-style: none; 
+}
+.app__navbar-smallscreen_link li{
+    margin: 1.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--color-golden);
+    font-family: var(--font-base);
+}
+.app__navbar-smallscreen_link li:hover{
+    color: white;
+}
+@media screen and (max-width:2000px){
+    .app__navbar-logo{
+        width: 230px;
+    }
+}
+@media screen and (max-width:1150px) {
+    .app__navbar-link{
+        display: none;
+    }
+    .app__navbar-smallscreen{
+        display: flex;
+    }
+}
+@media screen and (max-width:650px){
+    .app__navbar-logo{
+        width:50px;
+    }
+    .app__navbar-login{
+        display: none;
+    }
+    .app__navbar{
+        padding: 1rem;
+    }
+    
+}
