@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Zaika-Indian/static/css/main.dc1d5858.css",
+    "main.css": "/Zaika-Indian/static/css/main.b5a4034f.css",
     "main.js": "/Zaika-Indian/static/js/main.3c7cd607.js",
     "static/media/meal.mp4": "/Zaika-Indian/static/media/meal.a1b6c6dc67dfa2f99343.mp4",
     "static/media/bg.png": "/Zaika-Indian/static/media/bg.3d421b1b5682e1b67deb.png",
@@ -28,11 +28,11 @@
     "static/media/sign.png": "/Zaika-Indian/static/media/sign.9bf0bd90ad4caa17991f.png",
     "index.html": "/Zaika-Indian/index.html",
     "static/media/spoon.svg": "/Zaika-Indian/static/media/spoon.d079f43fbcf509908d3865293080795a.svg",
-    "main.dc1d5858.css.map": "/Zaika-Indian/static/css/main.dc1d5858.css.map",
+    "main.b5a4034f.css.map": "/Zaika-Indian/static/css/main.b5a4034f.css.map",
     "main.3c7cd607.js.map": "/Zaika-Indian/static/js/main.3c7cd607.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc1d5858.css",
+    "static/css/main.b5a4034f.css",
     "static/js/main.3c7cd607.js"
   ]
 }
